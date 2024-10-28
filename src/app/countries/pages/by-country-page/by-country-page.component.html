@@ -19,6 +19,6 @@
     <hr>
     <li *ngFor="let country of countries">
       {{country.name.common}}</li>
-      <countries-table></countries-table>
+      <countries-table [countries]="countries"></countries-table>
   </div>
 </div>
